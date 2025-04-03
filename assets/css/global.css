@@ -128,3 +128,13 @@ p {
 }
 a { color: darkblue; }
 
+/* ======== HYPERLINKS ======== */
+a:link, a:visited {
+    color: darkblue; 
+    transition: all 0.3s ease;
+}
+
+a:hover, a:focus, a:active {
+    color: blue
+}
+
