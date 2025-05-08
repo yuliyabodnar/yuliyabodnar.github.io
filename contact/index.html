@@ -13,7 +13,14 @@
     <link rel="stylesheet" href="https://lunevedy.com/assets/2.0/css/lunevedy.min.css" />
     <link rel="stylesheet" href="../assets/css/custom.css" />
 
-	<!-- Google Fonts -->
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 
     <!-- Font Awesome 6 icons. Delete if not using. -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -56,14 +63,14 @@
 <body>
 
     <!-- menu and 'hero block' header -->
-    <nav class="theme-light"><div class="container-menu">
+    <nav class="theme-light" id="nav-bar" ><div class="container-menu">
         <a href="../index.html" class="brand">
-            <img src="../assets/img/website-logo-sample.png" alt="Sample website logo"></a>
+            <img src="../assets/img/y-logo.png" alt="Sample website logo"></a>
         
         <div class="container-menu-links">
         
         <div class="nav-toggle" id="nav-toggle-btn"><div class="bar-1"></div><div class="bar-2"></div><div class="bar-3"></div></div>
-            <ul class="links-wrapper">
+            <ul class="links-wrapper" id="nav-text">
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="../portfolio/index.html">Portfolio</a></li>
                 <li><a href="../store/index.html">Store</a></li>
@@ -75,8 +82,8 @@
     
     <header class="theme-light text-center-mobile">
         <div class="container-text w-1140px">
-            <h1>Get in touch</h1>
-            <h2>Have a project you would like to discuss? Let's make something great together! Email me at <a href="mailto:email@example.com?subject=Mail from my Personal Website">julizbodnar@gmail.com</a> or use the form below to let me know a little more about your objectives and I'll get back to you.</h2>
+            <h1 class="lorafont">Get in touch</h1>
+            <h2 class="manropefont">Have a project you would like to discuss? Let's make something great together! Email me at <a href="mailto:email@example.com?subject=Mail from my Personal Website">julizbodnar@gmail.com</a> or use the form below to let me know a little more about your objectives and I'll get back to you.</h2>
         </div>
         
     </header><!-- header ends here -->
@@ -118,7 +125,7 @@
 
         <div class="col-2 col-visual">
 				<figure>
-					<img src="https://lunevedy.com/ui/assets/img/800x900-typing.jpg" alt="Placeholder image">
+					<img src="keyboard.jpg" alt="Placeholder image">
 				</figure>
             
         </div>
@@ -134,11 +141,11 @@
 
     <!-- footer -->
  
-	<footer class="theme-dark text-center-desktop text-center-mobile">
+	<footer class="theme-dark text-center-desktop text-center-mobile" id="footer">
 
-		<h2>Yuliya Bodnar</h2>
+		<h2 class="lorafont">Yuliya Bodnar</h2>
 
-		<h3>Front-end designer and developer</h3>
+		<h3 class="manropefont">Front-end designer and developer</h3>
 
 		<ul class="footer-links">
 			<li><a href="../index.html">Home</a></li>
