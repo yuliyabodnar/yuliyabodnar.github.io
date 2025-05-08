@@ -13,7 +13,14 @@
     <link rel="stylesheet" href="https://lunevedy.com/assets/2.0/css/lunevedy.min.css" />
     <link rel="stylesheet" href="assets/css/custom.css" />
 
-	<!-- Google Fonts -->
+   <!-- Google Fonts -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 
     <!-- Font Awesome 6 icons. Delete if not using. -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -57,9 +64,9 @@
 <body>
 
     <!-- menu and 'hero block' header -->
-    <nav class="theme-light"><div class="container-menu">
+    <nav class="theme-light" id="nav-bar"><div class="container-menu">
         <a href="#" class="brand">
-            <img src="https://lunevedy.com/ui/assets/img/website-logo-sample.png" alt="Sample website logo">
+            <img src="assets/img/y-logo.png" alt="Sample website logo">
         </a>
     
         <div class="container-menu-links">
@@ -72,7 +79,7 @@
     
             <ul class="links-wrapper">
                 <li><a href="#">Home</a></li>
-                <li><a href="portfolio/index.html">Portfolio</a></li>
+                <li><a href="portfolio/index.html" id="portfolio">Portfolio</a></li>
                 <li><a href="store/index.html">Store</a></li>
                 <li><a class="btn btn-solid btn-soft" id="btn-cta" href="contact/index.html"><span>Contact</span> <i class="fa-regular fa-envelope"></i></a></li>
             </ul>
@@ -84,8 +91,8 @@
     
             <div class="col-2 col-text">
                 <div class="badge">WELCOME</div>
-                <h1>Yuliya Bodnar</h1>
-                <h2>I am an innovative front-end developer who loves to build human-friendly interfaces.</h2>
+                <h1 class="lorafont">Yuliya Bodnar</h1>
+                <h2 class="manropefont">Web designer and developer who loves crafting websites that look good, feel right, and work smoothly. Whether you're building something new, or need a fresh take on your site, I'm here to help.</h2>
     
                 <div class="container-btn">
                     <a href="portfolio/index.html" class="btn btn-solid btn-soft"><span>View my work</span><i class="fa-regular fa-folder-open"></i></a><a href="contact/index.html" class="btn btn-outline btn-soft"><span>Get in touch</span><i class="fa-regular fa-envelope"></i></a>
@@ -95,7 +102,7 @@
     
             <div class="col-2 col-visual">
                 <figure>
-                    <img src="https://lunevedy.com/ui/assets/img/1024x618-shopping-bag.jpg" alt="Placeholder image">
+                    <img src="assets/img/pixabay.jpg" alt="Placeholder image">
                 </figure>
             </div>
     
@@ -112,8 +119,8 @@
     <section class="theme-light section-selector-1 w-1356px">
 
 		<div class="col-1 text-center w-820px">
-			<h2>Recent projects</h2>
-			<h3>Below you can see some examples of my recent work. Check out my complete portfolio of <a href="portfolio/index.html">web design</a> projects. Have a project you would like to discuss? <a href="contact/index.html">Let's make something great together!</a> </h3>
+			<h2 class="lorafont" id="sectionh2">Recent projects</h2>
+			<h3 class="manropefont">Below you can see some examples of my recent work. Check out my complete portfolio of <a href="portfolio/index.html">web design</a> projects. Have a project you would like to discuss? <a href="contact/index.html">Let's make something great together!</a> </h3>
 		</div>
 
 		<!-- Begin three-column flexbox grid -->
@@ -123,8 +130,8 @@
 				<figure class="photos-zoom photos-brightness" style="overflow: hidden;">
 					<a href="portfolio/fashion/index.html"><img src="assets/img/project-fashion.jpg" alt="Fashion retailer project"></a>
 				</figure>
-				<h3>Snazzy Fashion</h3>
-				<p>A web page for a fashion retailer with a background video that plays in a continuous loop.</p>
+				<h3 class="lorafont">Snazzy Fashion</h3>
+				<p class="manropefont">A web page for a fashion retailer with a background video that plays in a continuous loop.</p>
 				<a href="portfolio/fashion/index.html" class="btn btn-solid btn-soft"><span>View project</span><i class="fas fa-arrow-right"></i></a>
 			</div>
 
@@ -134,8 +141,8 @@
     <figure class="photos-zoom photos-brightness" style="overflow: hidden;">
         <a href="store/index.html"><img src="assets/img/project-store.png" alt="Store project"></a>
     </figure>
-    <h3>Book Store</h3>
-    <p>An online book store with affiliate links to Amazon.</p>
+    <h3 class="lorafont">Book Store</h3>
+    <p class="manropefont">An online book store with affiliate links to Amazon.</p>
     <a href="store/index.html" class="btn btn-solid btn-soft"><span>View project</span><i class="fas fa-arrow-right"></i></a>
 </div>
 
@@ -143,8 +150,8 @@
 				<figure class="photos-zoom photos-brightness" style="overflow: hidden;">
 					<a href="portfolio/crypto-wallet/index.html"><img src="assets/img/project-crypto-wallet.jpg" alt="Placeholder image"></a>
 				</figure>
-				<h3>Crypto Wallet</h3>
-				<p> A dark-themed responsive single-page website for a fictitious crypto wallet.</p>
+				<h3 class="lorafont">Crypto Wallet</h3>
+				<p class="manropefont"> A dark-themed responsive single-page website for a fictitious crypto wallet.</p>
 				<a href="portfolio/crypto-wallet/index.html" class="btn btn-solid btn-soft"><span>View project</span><i class="fas fa-arrow-right"></i></a>
 			</div>
 
@@ -159,11 +166,11 @@
 
     <!-- footer -->
  
-	<footer class="theme-dark text-center-desktop text-center-mobile">
+	<footer class="theme-dark text-center-desktop text-center-mobile" id="footer">
 
-		<h2>Yuliya Bodnar</h2>
+		<h2 class="lorafont">Yuliya Bodnar</h2>
 
-		<h3>Front-end designer and developer</h3>
+		<h3 class="manropefont">Front-end designer and developer</h3>
 
 		<ul class="footer-links">
 			<li><a href="#">Home</a></li>
