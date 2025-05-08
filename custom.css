@@ -1,0 +1,33 @@
+body 
+.theme-light.section-selector-1 {background: #F2EFE7;}
+.theme-light.cols-2-half {background: #F2EFE7;}
+.theme-light.text-center-mobile {background-color: #F2EFE7;}
+
+
+.lorafont {font-family: 'Lora', sans-serif;}
+.manropefont {font-family: 'Manrope', sans-serif;
+font-weight: 600;}
+
+header.theme-light { background-color: var(--white-000) }
+nav.theme-light ul.links-wrapper li a:link,
+nav.theme-light ul.links-wrapper li a:visited { color: var(--white-000) }
+nav.theme-light,
+nav.theme-light ul.links-wrapper.active { background-color: var(--teal-700) }
+
+
+#nav-bar {background-color: #006A71;}
+#nav-text {color: #F2EFE7;}
+
+
+
+header .col-text h2, .col-1 > h3 { line-height: 1.8; }
+header .col-2 h1 {color: #48A6A7;}
+header .container-text h1 {color: #48A6A7;}
+#sectionh2 {color: #48A6A7;}
+#portfolioh1 {color: #48A6A7;}
+
+section div .col-4 h3 {color: #48A6A7;}
+main .col-3 h3 {color: #48A6A7;}
+section div .col-3 {background: #F2EFE7;}
+#footer {background-color: #006A71;}
+
