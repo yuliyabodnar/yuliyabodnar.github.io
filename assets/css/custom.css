@@ -12,7 +12,7 @@ header.theme-light { background-color: var(--white-000) }
 nav.theme-light ul.links-wrapper li a:link,
 nav.theme-light ul.links-wrapper li a:visited { color: var(--white-000) }
 nav.theme-light,
-nav.theme-light ul.links-wrapper.active { background-color: var(--teal-700) }
+nav.theme-light ul.links-wrapper.active { background-color: #006A71 }
 
 
 #nav-bar {background-color: #006A71;}
