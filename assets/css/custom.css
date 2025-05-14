@@ -31,3 +31,6 @@ main .col-3 h3 {color: #48A6A7;}
 section div .col-3 {background: #F2EFE7;}
 #footer {background-color: #006A71;}
 
+@media (min-width: 768px) {
+    nav .brand { margin-top: 6px; }
+  }
